@@ -1,0 +1,12 @@
+
+struct StudentResult {
+    var name: String
+    var marks: Int
+
+    func isPassed() -> Bool {
+        return marks >= 40
+    }
+}
+
+let student = StudentResult(name: "Arun", marks: 65)
+print(student.isPassed())
